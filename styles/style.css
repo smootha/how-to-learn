@@ -71,7 +71,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  object-fit: fill;
+  object-fit: cover;
   z-index: -1;
 }
 
@@ -152,8 +152,7 @@
   margin: 100px auto;
 }
 
-.digits__section-title,
-.kaufman__section-title {
+.section-title {
   width: 60%;
   margin: 0 auto 20px;
   text-align: center;
@@ -162,8 +161,7 @@
   font-weight: 700;
 }
 
-.digits__section-subtitle,
-.kaufman__section-subtitle {
+.section-subtitle {
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -202,8 +200,10 @@ margin: 60px 0 0 0;
 /* Элементы Фэйнмана */
 
 .feynman {
+  box-sizing: border-box;
   min-height: 890px;
   margin: 100px 0 0;
+  padding-top: 100px;
   background-color: #f2f2f2;
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
@@ -213,8 +213,6 @@ margin: 60px 0 0 0;
 }
 
 .feynman__title {
-  position: relative;
-  top: 100px;
   width: 100%;
   max-width: 648px;
   text-align: center;
@@ -262,8 +260,8 @@ margin: 60px 0 0 0;
   z-index: -1;
 }
 
-.kaufman__section-title_theme_dark,
-.kaufman__section-subtitle_theme_dark {
+.section-title_theme_dark,
+.section-subtitle_theme_dark {
   color: #fff;
 }
 
@@ -306,7 +304,7 @@ margin: 60px 0 0 0;
   line-height: 25px;
 }
 
-.column__heading {
+.footer__column-heading {
   color: #fff;
   margin: 0 0 20px;
   font-size: 18px;
@@ -314,14 +312,14 @@ margin: 60px 0 0 0;
   font-weight: 700;
 }
 
-.column__links {
+.footer__column-links {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 16px;
 }
 
-.column__link {
+.footer__column-link {
   font-size: 18px;
   line-height: 30px;
   text-decoration: none;
@@ -329,7 +327,7 @@ margin: 60px 0 0 0;
   transition: color .2s;
 }
 
-.column__link:hover {
+.footer__column-link:hover {
   color: #aaa;
 }
 
