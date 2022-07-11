@@ -1,0 +1,13 @@
+.resources__logo {
+  display: block;
+  height: 100%;
+  margin: auto;
+  transition: height .2s ease-in-out, box-shadow .3s  .1s ease-in-out;
+}
+
+.resources__logo:hover {
+  height: 110%;
+  box-shadow: 0 5px 10px rgba(100, 100, 100, .1);
+  /* чтобы в сафари при наведении не был текстовый курсор */
+  cursor: pointer;
+}

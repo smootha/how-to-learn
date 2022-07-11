@@ -1,0 +1,8 @@
+.footer__columns {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  min-height: 250px;
+  /* 250px а не 350 потому что в у селектора footer пэддинг суммарный еще 100px */
+}

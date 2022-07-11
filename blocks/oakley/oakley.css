@@ -1,0 +1,8 @@
+.oakley {
+  background-color: #f2f2f2;
+
+  /* Нахлест на секцию Video */
+  position: relative;
+  margin-top: -60px;
+  padding-top: 60px;
+}

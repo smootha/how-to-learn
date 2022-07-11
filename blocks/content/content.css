@@ -1,0 +1,5 @@
+.content {
+  background-color: #fff;
+  position: relative;
+  /* Для перекрытия синего квадрата в заголовке при уменьшении размера окна */
+}
