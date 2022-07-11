@@ -3,7 +3,7 @@
   line-height: 42px;
   color: #2f80ed;
   text-decoration: none;
-  transition: opacity .2s;
+  transition: opacity .3s;
 }
 
 .khan__buy-link::after {
