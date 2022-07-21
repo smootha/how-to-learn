@@ -26,6 +26,17 @@
 @import url('../blocks/cards/__title/cards__title.css');
 @import url('../blocks/cards/__description/cards__description.css');
 
+/* Форма */
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__inputs/form__inputs.css');
+@import url('../blocks/form/__handlers/form__handlers.css');
+@import url('../blocks/form/__label/form__label.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__input/_type/form__input_type_textarea.css');
+@import url('../blocks/form/__button/form__button.css');
+@import url('../blocks/form/__button/_type/form__button_type_reset.css');
+@import url('../blocks/form/__button/_type/form__button_type_submit.css');
+
 /* Хэдер */
 @import url('../blocks/header/header.css');
 @import url('../blocks/logo/_place/logo_place_header.css');
@@ -49,7 +60,7 @@
 @import url('../blocks/two-columns/__span-accent/two-columns__span-accent.css');
 
 /* Техники обучения */
-@import url('../blocks/technicues/techniques.css');
+@import url('../blocks/techniques/techniques.css');
 
 /* Видео ТЕД */
 @import url('../blocks/video/video.css');
@@ -89,6 +100,9 @@
 @import url('../blocks/resources/__logo-zone/resources__logo-zone.css');
 @import url('../blocks/resources/__link/resources__link.css');
 @import url('../blocks/resources/__logo/resources__logo.css');
+
+/* Обратная связь */
+@import url('../blocks/feedback/feedback.css');
 
 /* Футер */
 @import url('../blocks/footer/footer.css');

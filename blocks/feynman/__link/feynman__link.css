@@ -6,6 +6,8 @@
   line-height: 51px;
   color: #2f80ed;
   text-decoration: none;
+  -webkit-transition: opacity .3s;
+  -o-transition: opacity .3s;
   transition: opacity .3s;
 }
 

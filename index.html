@@ -78,6 +78,8 @@
         <div class="video__iframes">
           <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/O96fE1E-rf8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/UdfRAd7R94o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -244,6 +246,31 @@
             <img class="resources__logo" src="images/logo/resources-polka.svg" alt="Полка">
           </a>
         </div>
+      </section>
+
+      <section class="feedback">
+        <h2 class="section-title">Обратная связь</h2>
+        <p class="section-subtitle">Ваши отзывы помогут нам стать еще лучше!</p>
+        <form class="form" method="post">
+          <fieldset class="form__inputs">
+            <label class="form__label" for="name">Имя:</label>
+            <input class="form__input" type="text" name="name" id="name" placeholder="ФИО">
+            <label class="form__label" for="email">E-mail:</label>
+            <input class="form__input" type="email" id="email" placeholder="anyname@anymail.com">
+            <label class="form__label" for="message">Напишите, что думаете:</label>
+            <textarea class="form__input form__input_type_textarea" name="message" id="message" placeholder="Место для ваших мыслей"></textarea>
+            <label class="form__label" for="message-type">Вид сообщения:</label>
+            <select class="form__input" name="message-type" id="message-type">
+              <option value="offer">Предложение</option>
+              <option value="question">Вопрос</option>
+              <option value="partnership">Сотрудничество</option>
+            </select>
+          </fieldset>
+          <fieldset class="form__handlers">
+            <input class="form__button form__button_type_reset" type="reset" value="Сбросить">
+            <input class="form__button form__button_type_submit" type="submit" value="Отправить">
+          </fieldset>
+        </form>
       </section>
     </main>
 

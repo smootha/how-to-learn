@@ -3,6 +3,8 @@
   line-height: 30px;
   text-decoration: none;
   color: #fff;
+  -webkit-transition: color .3s;
+  -o-transition: color .3s;
   transition: color .3s;
 }
 

@@ -1,0 +1,10 @@
+.form__button_type_submit {
+  border: 1px solid #5f5;
+  -webkit-transition: background-color .4s;
+  -o-transition: background-color .4s;
+  transition: background-color .4s;
+}
+
+.form__button_type_submit:hover {
+  background-color: #5f5;
+}

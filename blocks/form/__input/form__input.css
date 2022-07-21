@@ -1,0 +1,13 @@
+.form__input {
+  width: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #f2f2f2;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+          box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.form__input:focus {
+  outline-color: #fff;
+}
